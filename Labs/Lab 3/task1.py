@@ -23,6 +23,7 @@ def move_left(zeroi , zeroj):
     j= zeroi + 1
     if j <= 2:
         return zeroi , j
+    return None , None
 def dfs1(grid, depth_limit):
     if check_if_it_is_goal(grid):
         return stack
